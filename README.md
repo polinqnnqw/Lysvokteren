@@ -1,24 +1,15 @@
-# 🌊 Lysvokteren
+# 🌊 Lysvokteren (The Lighthouse Keeper)
 
-Et atmosfærisk arcade-spill laget i **Python + Pygame**.
-Du er vokteren av det siste fyrtårnet i en norsk fjord. Skipene seiler
-gjennom tåken — noen er venner, noen er fiender. Bruk lysstrålen klokt,
-og spar på oljen.
+Et atmosfærisk arcade-spill laget i **Python** med **Pygame-CE** og **NumPy**. 
+Du er vokteren av det siste fyrtårnet i en mørk norsk fjord. Skipene seiler gjennom tåken — noen er venner, noen er fiender. Bruk lysstrålen klokt, og spar på oljen.
 
-## 📦 Installasjon
+## 🛠 Forutsetninger
+- Python 3.10 eller nyere (fungerer også på 3.14).
+- `pip` (Python package manager).
 
-Krever **Python 3.10+**.
+## 🚀 Hvordan starte spillet
 
-```bash
-# 1. Klon eller pakk ut prosjektet
-cd lysvokteren
-
-# 2. (Anbefalt) Lag et virtuelt miljø
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
-
-# 3. Installer avhengigheter
-pip install -r requirements.txt
+1. Åpne terminalen i prosjektmappen.
+2. Installer avhengighetene:
+   ```bash
+   pip install -r requirements.txt
