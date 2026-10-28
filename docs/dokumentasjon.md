@@ -26,8 +26,11 @@ Jeg valgte **Python** med **Pygame-CE** fordi det gir full kontroll over 2D-graf
 
 ## 3. Utviklingsprosess og utfordringer
 ![alt text](<Skjermbilde 2026-10-28 110147.png>)
-<video controls src="20261028-1002-03.2667277.mp4" title="Title"></video>
-           Underveis støtte jeg på flere tekniske utfordringer som jeg måtte løse:
+<video controls src="20261028-1012-24.5871614.mp4" title=""></video>
+
+
+
+Underveis støtte jeg på flere tekniske utfordringer som jeg måtte løse:
 
 1. **Installasjonsproblemer:** Vanlig `pygame` ville ikke bygge på min versjon av Python. Løsningen var å bruke `pip install pygame-ce` og endre importene. Dette lærte meg mye om hvordan Python-pakker og avhengigheter fungerer.
 2. **Grafiske bugs (Additive Blending):** Den første versjonen av lysstrålen og nordlyset ble en stor, stygg hvit flekk. Dette skjedde fordi `BLEND_RGBA_ADD` oppførte seg annerledes enn forventet i Pygame. Jeg løste dette ved å pre-rendre overflater (Surfaces) med vanlig alfa-blending, og heller bruke additiv blending kun på små partikler.
